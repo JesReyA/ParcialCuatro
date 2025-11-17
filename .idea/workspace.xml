@@ -4,39 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="git innit">
-      <change afterPath="$PROJECT_DIR$/JAR/Herramientas.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/grafos/DistPar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/grafos/Grafo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/grafos/Vertice.java" afterDir="false" />
+    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Configuracion inicial de libreria Herramientas.jar y clases necesarias para el manejo de grafos">
+      <change afterPath="$PROJECT_DIR$/DatosGrafo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/ManejoArchivos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/pruebaGrafos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/grafos/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/inicio/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/grafos/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/grafos/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/grafos/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAR/Herramientas.jar" beforeDir="false" afterPath="$PROJECT_DIR$/JAR/Herramientas.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/grafos/DistPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/DistPar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/grafos/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/grafos/Vertice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/Vertice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "WErikAzr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;WErikAzr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JesReyA/ParcialCuatro.git",
-    "accountId": "99489934-c42a-47fc-b7c6-cdbf57dc4e42"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JesReyA/ParcialCuatro.git&quot;,
+    &quot;accountId&quot;: &quot;99489934-c42a-47fc-b7c6-cdbf57dc4e42&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -44,9 +48,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="35amAIX4DAFiAmzNfQe34brULAI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,15 +60,17 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "Application.Launcher.executor": "Run",
+    "Application.pruebaGrafos.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/erikazr/IdeaProjects/ENTREGABLES MIKE/Grafos/JAR/Herramientas.jar",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,7 +78,11 @@
       <recent name="$PROJECT_DIR$/JAR" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares" />
       <recent name="$PROJECT_DIR$/src/main/java/unam/fes/aragon/grafos" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="unam.fes.aragon.logicaGrafos.clasesAuxiliares" />
     </key>
   </component>
   <component name="TaskManager">
@@ -91,11 +101,28 @@
       <option name="project" value="LOCAL" />
       <updated>1763356681917</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Configuracion inicial de libreria Herramientas.jar y clases necesarias para el manejo de grafos">
+      <option name="closed" value="true" />
+      <created>1763357371595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763357371595</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git innit" />
-    <option name="LAST_COMMIT_MESSAGE" value="git innit" />
+    <MESSAGE value="Configuracion inicial de libreria Herramientas.jar y clases necesarias para el manejo de grafos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuracion inicial de libreria Herramientas.jar y clases necesarias para el manejo de grafos" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="lineaSeparada" />
+        <watch expression="verticesMaximos" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

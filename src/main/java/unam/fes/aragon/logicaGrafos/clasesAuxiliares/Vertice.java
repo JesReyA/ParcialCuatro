@@ -1,4 +1,4 @@
-package unam.fes.aragon.grafos;
+package unam.fes.aragon.logicaGrafos.clasesAuxiliares;
 
 public class Vertice<E> {
     public E valor;
