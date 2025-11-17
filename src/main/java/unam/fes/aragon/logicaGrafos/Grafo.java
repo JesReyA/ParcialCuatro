@@ -14,7 +14,7 @@ public class Grafo <E> {
 
     /**
      * Recibe la ruta relativa de un archivo con el formato necesario para crear un grafo
-     * Metodo incompleto
+     *
      * @param rutaRelativaArchivo
      */
     public Grafo(String rutaRelativaArchivo){
