@@ -1,4 +1,4 @@
-package org.example.grafos;
+package unam.fes.aragon.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
