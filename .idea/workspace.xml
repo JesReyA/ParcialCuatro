@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatosGrafo" beforeDir="false" afterPath="$PROJECT_DIR$/DatosGrafo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +30,12 @@
     &quot;assignee&quot;: &quot;WErikAzr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/JesReyA/ParcialCuatro.git&quot;,
-    &quot;accountId&quot;: &quot;99489934-c42a-47fc-b7c6-cdbf57dc4e42&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JesReyA/ParcialCuatro.git",
+    "accountId": "9fc962b1-b81c-4d49-840d-8dabeffe26bf"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -65,7 +65,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,6 +73,7 @@
       <recent name="$PROJECT_DIR$/JAR" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JRA\Documents\GitHub\ParcialCuatro\src\main\resources\unam\fes\aragon\imagenes" />
       <recent name="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares" />
       <recent name="$PROJECT_DIR$/src/main/java/unam/fes/aragon/grafos" />
     </key>
@@ -134,6 +135,17 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git innit" />
