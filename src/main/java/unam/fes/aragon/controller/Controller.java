@@ -1,14 +1,45 @@
 package unam.fes.aragon.controller;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.Node;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.stage.FileChooser;
+import javafx.stage.Stage;
+
+import java.io.File;
+import java.nio.channels.FileChannel;
 
 public class Controller {
     @FXML
-    private Label welcomeText;
+    Button buttonElegirArchivo;
 
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    private FileChooser.ExtensionFilter ex1 = new FileChooser.ExtensionFilter("TXT", "*.txt", "CSV", "*.csv");
+    private File archivoElegido;
+
+
+    public void handleElegirArchivo(ActionEvent actionEvent) {
+        FileChooser fileChooser = new FileChooser();
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        fileChooser.getExtensionFilters().addAll(ex1);
+        archivoElegido= fileChooser.showOpenDialog(stage);
+
+        try{
+            if(archivoElegido != null){
+                mostrarAlerta(Alert.AlertType.INFORMATION, "EXITO",  "Se adjuntó con éxito el archivo" + "\n" + "El grafo se mostrará a continuación junto con su ruta más corta");
+            }
+        }catch (Exception e){
+            mostrarAlerta(Alert.AlertType.ERROR, "ERROR", e.getMessage() + "Revise el archivo ingresado y reintente");
+        }
+    }
+
+    public void mostrarAlerta(Alert.AlertType tipo, String titulo, String mensaje ){
+        Alert alert = new Alert(tipo);
+        alert.setTitle(titulo);
+        alert.setHeaderText(null);
+        alert.setContentText(mensaje);
+        alert.showAndWait();
     }
 }

@@ -8,6 +8,6 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unam.fes.aragon.controller.Controller">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="98.0" stroke="BLACK" strokeType="INSIDE" width="642.0" />
-      <Button layoutX="446.0" layoutY="28.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="151.0" text="Crear GRAFO" />
+      <Button fx:id="buttonElegirArchivo" layoutX="446.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleElegirArchivo" prefHeight="42.0" prefWidth="151.0" text="Crear GRAFO" />
    </children>
 </AnchorPane>
