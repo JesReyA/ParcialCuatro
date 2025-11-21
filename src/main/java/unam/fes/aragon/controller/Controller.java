@@ -8,6 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import unam.fes.aragon.logicaGrafos.Grafo;
 
 import java.io.File;
 import java.nio.channels.FileChannel;
@@ -30,6 +31,8 @@ public class Controller {
         try{
             if(archivoElegido != null){
                 mostrarAlerta(Alert.AlertType.INFORMATION, "EXITO",  "Se adjuntó con éxito el archivo" + "\n" + "El grafo se mostrará a continuación junto con su ruta más corta");
+                Grafo<Integer> grafoNuevo =new Grafo<>(archivoElegido.getAbsolutePath());
+                grafoNuevo.imprimirMatrizAdyacencia();
             }
         }catch (Exception e){
             mostrarAlerta(Alert.AlertType.ERROR, "ERROR", e.getMessage() + "Revise el archivo ingresado y reintente");

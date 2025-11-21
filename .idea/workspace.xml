@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Selección de archivo">
+    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Tipo de Archivo CSV y TXT">
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763764511364</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tipo de Archivo CSV y TXT">
+      <option name="closed" value="true" />
+      <created>1763764861329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763764861329</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +185,8 @@
     <MESSAGE value="Inicio de interfaz" />
     <MESSAGE value="Interfaz notResizable" />
     <MESSAGE value="Selección de archivo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selección de archivo" />
+    <MESSAGE value="Tipo de Archivo CSV y TXT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tipo de Archivo CSV y TXT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
