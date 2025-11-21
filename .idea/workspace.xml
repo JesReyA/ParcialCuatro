@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Interfaz notResizable">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatosGrafo" beforeDir="false" afterPath="$PROJECT_DIR$/DatosGrafo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/Launcher.java" afterDir="false" />
+    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Selección de archivo">
       <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/inicio/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/inicio/Ventana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/pruebaGrafos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/pruebaGrafos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763758128572</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Selección de archivo">
+      <option name="closed" value="true" />
+      <created>1763764511364</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763764511364</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,7 +175,8 @@
     <MESSAGE value="Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar." />
     <MESSAGE value="Inicio de interfaz" />
     <MESSAGE value="Interfaz notResizable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interfaz notResizable" />
+    <MESSAGE value="Selección de archivo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selección de archivo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

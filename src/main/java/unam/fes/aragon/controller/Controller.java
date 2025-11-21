@@ -16,14 +16,15 @@ public class Controller {
     @FXML
     Button buttonElegirArchivo;
 
-    private FileChooser.ExtensionFilter ex1 = new FileChooser.ExtensionFilter("TXT", "*.txt", "CSV", "*.csv");
+    private FileChooser.ExtensionFilter ex1 = new FileChooser.ExtensionFilter("TXT", "*.txt");
+    private FileChooser.ExtensionFilter ex2 = new FileChooser.ExtensionFilter("CSV", "*.csv");
     private File archivoElegido;
 
 
     public void handleElegirArchivo(ActionEvent actionEvent) {
         FileChooser fileChooser = new FileChooser();
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        fileChooser.getExtensionFilters().addAll(ex1);
+        fileChooser.getExtensionFilters().addAll(ex1, ex2);
         archivoElegido= fileChooser.showOpenDialog(stage);
 
         try{
