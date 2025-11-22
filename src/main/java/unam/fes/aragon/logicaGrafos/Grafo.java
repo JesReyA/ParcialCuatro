@@ -10,7 +10,7 @@ public class Grafo <E> {
     private int verticesMaximos;
     private ListaSimple<Vertice<String>> listaVertices;
     private int[][] matrizAdyacencia;
-
+    private String[] nombresVertices;
 
     /**
      * Recibe la ruta relativa de un archivo con el formato necesario para crear un grafo
@@ -64,5 +64,9 @@ public class Grafo <E> {
 
     public int[][] obtenerMatrizAdyacencia(){
         return matrizAdyacencia;
+    }
+
+    public ListaSimple<Vertice<String>> obtenerNombres() {
+        return listaVertices;
     }
 }

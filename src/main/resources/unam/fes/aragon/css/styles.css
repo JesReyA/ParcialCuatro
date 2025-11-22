@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Quicksand:wght@300..700&display=swap');
+
+
 .text-area .text {
     -fx-text-alignment: center; /* O right, justify, left */
 }
 
 #buttonElegirArchivo{
     -fx-background-radius: 10px;
+    -fx-font-family: "Momo Trust Display", sans-serif;
+    -fx-font-weight: 400;
+    -fx-font-style: normal;
+    -fx-font-size: 15px;
 }
 
 .root{
@@ -11,6 +18,16 @@
 }
 
 .text-area{
+    -fx-background-border: #969696;
+    -fx-border-style: dashed;
+    -fx-border-width: 3px;
+    -fx-font-family: "Quicksand", sans-serif;
+    -fx-font-optical-sizing: auto;
+    -fx-font-weight: 300;
+    -fx-font-style: normal;
+}
+
+.pane{
     -fx-background-border: #969696;
     -fx-border-style: dashed;
     -fx-border-width: 3px;
