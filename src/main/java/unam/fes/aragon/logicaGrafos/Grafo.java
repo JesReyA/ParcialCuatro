@@ -1,8 +1,6 @@
 package unam.fes.aragon.logicaGrafos;
-
 import unam.fes.aragon.dinamicas.listasimple.ListaSimple;
 import unam.fes.aragon.logicaGrafos.clasesAuxiliares.Vertice;
-
 import java.io.File;
 import java.util.Scanner;
 
@@ -22,20 +20,20 @@ public class Grafo <E> {
             File archivo = new File(rutaRelativaArchivo);
             Scanner scanner = new Scanner(archivo);
             listaVertices = new ListaSimple<>();
-            int contadorInterno = 0;
+            int contadorDeLinea = 0;
             while(scanner.hasNextLine()){
-                if(contadorInterno < 1){
+                if(contadorDeLinea < 1){
                     String linea = scanner.nextLine();
                     verticesMaximos = Integer.parseInt(linea);
-                    contadorInterno++;
-                } else if (contadorInterno == 1) {
+                    contadorDeLinea++;
+                } else if (contadorDeLinea == 1) {
                     String linea = scanner.nextLine();
                     String [] lineaSeparada = linea.split(",");
                     for (String s : lineaSeparada) {
                         Vertice<String> verticeTmp = new Vertice<>(String.valueOf(s));
                         listaVertices.agregarEnCola(verticeTmp);
                     }
-                    contadorInterno++;
+                    contadorDeLinea++;
                 }else{
                     matrizAdyacencia = new int[verticesMaximos][verticesMaximos];
                     for (int i = 0; i < matrizAdyacencia.length; i++) {
@@ -53,6 +51,7 @@ public class Grafo <E> {
         }
     }
 
+    //Imprime la matriz de adyacencia de un grafo
     public void imprimirMatrizAdyacencia(){
         for (int i = 0; i < matrizAdyacencia.length; i++) { // Iterate through rows
             for (int j = 0; j < matrizAdyacencia[i].length; j++) { // Iterate through columns in the current row
@@ -65,4 +64,6 @@ public class Grafo <E> {
     public int[][] obtenerMatrizAdyacencia(){
         return matrizAdyacencia;
     }
+
+
 }
