@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Tipo de Archivo CSV y TXT">
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Se crea la matriz usando Archivo elegido">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/inicio/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/inicio/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/imagenes/grafo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/imagenes/grafo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +59,7 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "Application.Launcher.executor": "Run",
+    "Application.Ventana.executor": "Run",
     "Application.pruebaGrafos.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -164,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763764861329</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Se crea la matriz usando Archivo elegido">
+      <option name="closed" value="true" />
+      <created>1763765454747</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763765454747</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +200,8 @@
     <MESSAGE value="Interfaz notResizable" />
     <MESSAGE value="Selección de archivo" />
     <MESSAGE value="Tipo de Archivo CSV y TXT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tipo de Archivo CSV y TXT" />
+    <MESSAGE value="Se crea la matriz usando Archivo elegido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crea la matriz usando Archivo elegido" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,17 @@
+.text-area .text {
+    -fx-text-alignment: center; /* O right, justify, left */
+}
+
+#buttonElegirArchivo{
+    -fx-background-radius: 10px;
+}
+
+.root{
+    -fx-background-color: #DEDEDE;
+}
+
+.text-area{
+    -fx-background-border: #969696;
+    -fx-border-style: dashed;
+    -fx-border-width: 3px;
+}

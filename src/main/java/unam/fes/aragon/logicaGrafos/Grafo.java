@@ -62,5 +62,7 @@ public class Grafo <E> {
         }
     }
 
-
+    public int[][] obtenerMatrizAdyacencia(){
+        return matrizAdyacencia;
+    }
 }
