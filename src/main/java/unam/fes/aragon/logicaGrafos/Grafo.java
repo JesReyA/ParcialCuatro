@@ -65,4 +65,8 @@ public class Grafo <E> {
     public int[][] obtenerMatrizAdyacencia(){
         return matrizAdyacencia;
     }
+
+    public ListaSimple<Vertice<String>> obtenerNombres(){
+        return listaVertices;
+    }
 }
