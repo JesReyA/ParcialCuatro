@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Se agregan lugares para elegir nodos Dijkstra">
+    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Lugares para elegir nodos de Dijkstra solo son visibles al elegir un archivo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763932360210</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lugares para elegir nodos de Dijkstra solo son visibles al elegir un archivo">
+      <option name="closed" value="true" />
+      <created>1763934406461</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763934406461</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +198,8 @@
     <MESSAGE value="renombrado atributo en Vertice." />
     <MESSAGE value="CASI ME MUERO PORQUE NO FUNCIONABA, PERO YA" />
     <MESSAGE value="Se agregan lugares para elegir nodos Dijkstra" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agregan lugares para elegir nodos Dijkstra" />
+    <MESSAGE value="Lugares para elegir nodos de Dijkstra solo son visibles al elegir un archivo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lugares para elegir nodos de Dijkstra solo son visibles al elegir un archivo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
