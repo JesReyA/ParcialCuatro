@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="renombrado atributo en Vertice.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAR/Herramientas.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jar/Herramientas.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -79,7 +80,7 @@
       <recent name="unam.fes.aragon.logicaGrafos.clasesAuxiliares" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Launcher">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unam.fes.aragon.Launcher" />
       <module name="Grafos" />
@@ -185,7 +186,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java</url>
           <line>131</line>
-          <properties class="unam.fes.aragon.logicaGrafos.Grafo" method="adjustPath">
+          <properties class="unam.fes.aragon.logicaGrafos.Grafo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
