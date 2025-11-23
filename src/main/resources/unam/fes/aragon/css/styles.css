@@ -32,3 +32,18 @@
     -fx-border-style: dashed;
     -fx-border-width: 3px;
 }
+
+#obtenerDijkstra{
+     -fx-background-radius: 10px;
+     -fx-font-family: "Momo Trust Display", sans-serif;
+     -fx-font-weight: 400;
+     -fx-font-style: normal;
+     -fx-font-size: 12 px;
+}
+
+.text-field{
+    -fx-font-family: "Quicksand", sans-serif;
+    -fx-font-optical-sizing: auto;
+    -fx-font-weight: 300;
+    -fx-font-style: normal;
+}

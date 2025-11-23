@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
@@ -26,7 +27,10 @@ import java.io.File;
 public class Controller {
 
     @FXML
-    Button buttonElegirArchivo;
+    Button buttonElegirArchivo, obtenerDijkstra;
+
+    @FXML
+    TextField nodoFin, nodoInicio;
 
     @FXML
     Pane grafoConstruido;
@@ -49,6 +53,7 @@ public class Controller {
             if(archivoElegido != null){
                 mostrarAlerta(Alert.AlertType.INFORMATION, "EXITO",  "Se adjuntó con éxito el archivo" + "\n" + "El grafo se mostrará a continuación junto con su ruta más corta");
                 Grafo<Integer> grafoNuevo =new Grafo<>(archivoElegido.getAbsolutePath());
+
                 int[][] nuevaMatriz = grafoNuevo.obtenerMatrizAdyacencia();
                 matrizAdyacenciaDijkstra.appendText("\nMATRIZ ADYACENCIA GRAFO\n\n");
                 for(int i=0; i< nuevaMatriz.length; i++){
@@ -59,6 +64,11 @@ public class Controller {
                 }
                 ListaSimple<Vertice<String>> nombres = grafoNuevo.obtenerNombres();
                 dibujarGrafoVisual(nuevaMatriz, nombres);
+
+                obtenerDijkstra.setVisible(true);
+                nodoFin.setVisible(true);
+                nodoInicio.setVisible(true);
+
             }
         }catch (Exception e){
             mostrarAlerta(Alert.AlertType.ERROR, "ERROR", e.getMessage() + "Revise el archivo ingresado y reintente");
