@@ -1,5 +1,7 @@
 package unam.fes.aragon.logicaGrafos;
 
+
+
 import unam.fes.aragon.dinamicas.listasimple.ListaSimple;
 import unam.fes.aragon.logicaGrafos.clasesAuxiliares.DistPar;
 import unam.fes.aragon.logicaGrafos.clasesAuxiliares.Vertice;

@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="renombrado atributo en Vertice.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/DistPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/DistPar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/pruebaGrafos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/pruebaGrafos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAR/Herramientas.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jar/Herramientas.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +50,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.Launcher.executor": "Run",
-    "Application.pruebaGrafos.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/erikazr/IdeaProjects/ENTREGABLES MIKE/Grafos",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pruebaGrafos.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/erikazr/IdeaProjects/ENTREGABLES MIKE/Grafos&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JAR" />
@@ -81,7 +79,7 @@
       <recent name="unam.fes.aragon.logicaGrafos.clasesAuxiliares" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pruebaGrafos">
+  <component name="RunManager">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unam.fes.aragon.Launcher" />
       <module name="Grafos" />
@@ -110,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pruebaGrafos" />
         <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.pruebaGrafos" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +155,17 @@
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git innit" />

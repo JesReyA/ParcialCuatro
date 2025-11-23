@@ -1,8 +1,9 @@
 module org.example.grafos {
     requires javafx.controls;
     requires javafx.fxml;
-    requires Herramientas;
+
     requires java.xml;
+    requires Herramientas;
     //requires org.example.grafos;
     opens unam.fes.aragon to javafx.fxml;
     exports unam.fes.aragon;

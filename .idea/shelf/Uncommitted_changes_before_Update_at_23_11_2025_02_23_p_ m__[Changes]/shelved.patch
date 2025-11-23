@@ -1,0 +1,114 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b8971150-3d48-4599-8827-d115dc4743a4\" name=\"Changes\" comment=\"Se crea la matriz usando Archivo elegido\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/unam/fes/aragon/css/styles.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/inicio/Ventana.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/inicio/Ventana.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/unam/fes/aragon/imagenes/grafo.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/unam/fes/aragon/imagenes/grafo.png\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;WErikAzr&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/JesReyA/ParcialCuatro.git\",\r\n    \"accountId\": \"9fc962b1-b81c-4d49-840d-8dabeffe26bf\"\r\n  }\r\n}]]></component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHomeTypeForPersistence\" value=\"WRAPPER\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"35amAIX4DAFiAmzNfQe34brULAI\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.HelloApplication.executor\": \"Run\",\r\n    \"Application.Launcher.executor\": \"Run\",\r\n    \"Application.Ventana.executor\": \"Run\",\r\n    \"Application.pruebaGrafos.executor\": \"Run\",\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"/home/erikazr/IdeaProjects/ENTREGABLES MIKE/Grafos\",\r\n    \"project.structure.last.edited\": \"Libraries\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"preferences.JavaFX\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/JAR\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\JRA\\Documents\\GitHub\\ParcialCuatro\\src\\main\\resources\\unam\\fes\\aragon\\imagenes\" />\r\n      <recent name=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares\" />\r\n      <recent name=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/grafos\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"unam.fes.aragon.logicaGrafos.clasesAuxiliares\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"pruebaGrafos\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"unam.fes.aragon.logicaGrafos.clasesAuxiliares.pruebaGrafos\" />\r\n      <module name=\"Grafos\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"unam.fes.aragon.logicaGrafos.clasesAuxiliares.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.pruebaGrafos\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b8971150-3d48-4599-8827-d115dc4743a4\" name=\"Changes\" comment=\"\" />\r\n      <created>1760820051128</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1760820051128</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"git innit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1763356681917</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1763356681917</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Configuracion inicial de libreria Herramientas.jar y clases necesarias para el manejo de grafos\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1763357371595</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1763357371595</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1763362529863</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1763362529863</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Inicio de interfaz\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1763755709367</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1763755709367</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Interfaz notResizable\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1763758128572</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1763758128572</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Selección de archivo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1763764511364</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1763764511364</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Tipo de Archivo CSV y TXT\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1763764861329</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1763764861329</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Se crea la matriz usando Archivo elegido\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1763765454747</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1763765454747</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"git innit\" />\r\n    <MESSAGE value=\"Configuracion inicial de libreria Herramientas.jar y clases necesarias para el manejo de grafos\" />\r\n    <MESSAGE value=\"Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar.\" />\r\n    <MESSAGE value=\"Inicio de interfaz\" />\r\n    <MESSAGE value=\"Interfaz notResizable\" />\r\n    <MESSAGE value=\"Selección de archivo\" />\r\n    <MESSAGE value=\"Tipo de Archivo CSV y TXT\" />\r\n    <MESSAGE value=\"Se crea la matriz usando Archivo elegido\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Se crea la matriz usando Archivo elegido\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java</url>\r\n          <line>39</line>\r\n          <option name=\"timeStamp\" value=\"5\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n    <watches-manager>\r\n      <configuration name=\"Application\">\r\n        <watch expression=\"lineaSeparada\" />\r\n        <watch expression=\"verticesMaximos\" />\r\n        <watch expression=\"verticeTmp\" />\r\n      </configuration>\r\n    </watches-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f1c8fb0af2d45da772afca21a2a5b177214c1da9)
++++ b/.idea/workspace.xml	(date 1763838834059)
+@@ -4,14 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Se crea la matriz usando Archivo elegido">
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/css/styles.css" afterDir="false" />
++    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Método obtener nombres Vértices">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/inicio/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/inicio/Ventana.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/imagenes/grafo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/imagenes/grafo.png" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -34,12 +28,12 @@
+     &quot;assignee&quot;: &quot;WErikAzr&quot;
+   }
+ }</component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/JesReyA/ParcialCuatro.git",
+-    "accountId": "9fc962b1-b81c-4d49-840d-8dabeffe26bf"
+-  }
+-}]]></component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/JesReyA/ParcialCuatro.git&quot;,
++    &quot;accountId&quot;: &quot;9fc962b1-b81c-4d49-840d-8dabeffe26bf&quot;
++  }
++}</component>
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+       <MavenGeneralSettings>
+@@ -55,24 +49,24 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.HelloApplication.executor": "Run",
+-    "Application.Launcher.executor": "Run",
+-    "Application.Ventana.executor": "Run",
+-    "Application.pruebaGrafos.executor": "Run",
+-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "master",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "/home/erikazr/IdeaProjects/ENTREGABLES MIKE/Grafos",
+-    "project.structure.last.edited": "Libraries",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "preferences.JavaFX"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Ventana.executor&quot;: &quot;Run&quot;,
++    &quot;Application.pruebaGrafos.executor&quot;: &quot;Run&quot;,
++    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/home/erikazr/IdeaProjects/ENTREGABLES MIKE/Grafos&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/JAR" />
+@@ -178,7 +172,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1763765454747</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="Método obtener nombres Vértices">
++      <option name="closed" value="true" />
++      <created>1763778041594</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1763778041594</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -201,7 +203,8 @@
+     <MESSAGE value="Selección de archivo" />
+     <MESSAGE value="Tipo de Archivo CSV y TXT" />
+     <MESSAGE value="Se crea la matriz usando Archivo elegido" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Se crea la matriz usando Archivo elegido" />
++    <MESSAGE value="Método obtener nombres Vértices" />
++    <option name="LAST_COMMIT_MESSAGE" value="Método obtener nombres Vértices" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
