@@ -1,0 +1,15 @@
+Index: DatosGrafo
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>4\nA,B,C,D\n0,2,5,0\n2,0,3,8\n5,3,0,7\n0,8,7,0
+===================================================================
+diff --git a/DatosGrafo b/DatosGrafo
+--- a/DatosGrafo	(revision 032ac86e7b2394a4cc19451207fef9cb06bbe8c7)
++++ b/DatosGrafo	(date 1763415427417)
+@@ -3,4 +3,4 @@
+ 0,2,5,0
+ 2,0,3,8
+ 5,3,0,7
+-0,8,7,0
+\ No newline at end of file
++0,8,9,9

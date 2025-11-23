@@ -1,0 +1,143 @@
+Index: src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package unam.fes.aragon.logicaGrafos;\n\nimport unam.fes.aragon.dinamicas.listasimple.ListaSimple;\nimport unam.fes.aragon.logicaGrafos.clasesAuxiliares.Vertice;\n\nimport java.io.File;\nimport java.util.Scanner;\n\npublic class Grafo <E> {\n    private int verticesMaximos;\n    private ListaSimple<Vertice<String>> listaVertices;\n    private int[][] matrizAdyacencia;\n\n\n    /**\n     * Recibe la ruta relativa de un archivo con el formato necesario para crear un grafo\n     *\n     * @param rutaRelativaArchivo\n     */\n    public Grafo(String rutaRelativaArchivo){\n        try{\n            File archivo = new File(rutaRelativaArchivo);\n            Scanner scanner = new Scanner(archivo);\n            listaVertices = new ListaSimple<>();\n            int contadorInterno = 0;\n            while(scanner.hasNextLine()){\n                if(contadorInterno < 1){\n                    String linea = scanner.nextLine();\n                    verticesMaximos = Integer.parseInt(linea);\n                    contadorInterno++;\n                } else if (contadorInterno == 1) {\n                    String linea = scanner.nextLine();\n                    String [] lineaSeparada = linea.split(\",\");\n                    for (String s : lineaSeparada) {\n                        Vertice<String> verticeTmp = new Vertice<>(String.valueOf(s));\n                        listaVertices.agregarEnCola(verticeTmp);\n                    }\n                    contadorInterno++;\n                }else{\n                    matrizAdyacencia = new int[verticesMaximos][verticesMaximos];\n                    for (int i = 0; i < matrizAdyacencia.length; i++) {\n                        String linea = scanner.nextLine();\n                        String [] lineaSeparada = linea.split(\",\");\n                        for (int j = 0; j < matrizAdyacencia[i].length; j++) {\n                            int valorPeso = Integer.parseInt(lineaSeparada[j]);\n                            matrizAdyacencia[i][j] = valorPeso;\n                        }\n                    }\n                }\n            }\n        } catch (Exception e) {\n            throw new RuntimeException(e);\n        }\n    }\n\n    public void imprimirMatrizAdyacencia(){\n        for (int i = 0; i < matrizAdyacencia.length; i++) { // Iterate through rows\n            for (int j = 0; j < matrizAdyacencia[i].length; j++) { // Iterate through columns in the current row\n                System.out.print(matrizAdyacencia[i][j] + \" \");\n            }\n            System.out.println(); // New line after each row\n        }\n    }\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java b/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java
+--- a/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java	(revision 032ac86e7b2394a4cc19451207fef9cb06bbe8c7)
++++ b/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java	(date 1763416975419)
+@@ -1,8 +1,6 @@
+ package unam.fes.aragon.logicaGrafos;
+-
+ import unam.fes.aragon.dinamicas.listasimple.ListaSimple;
+ import unam.fes.aragon.logicaGrafos.clasesAuxiliares.Vertice;
+-
+ import java.io.File;
+ import java.util.Scanner;
+ 
+@@ -22,20 +20,20 @@
+             File archivo = new File(rutaRelativaArchivo);
+             Scanner scanner = new Scanner(archivo);
+             listaVertices = new ListaSimple<>();
+-            int contadorInterno = 0;
++            int contadorDeLinea = 0;
+             while(scanner.hasNextLine()){
+-                if(contadorInterno < 1){
++                if(contadorDeLinea < 1){
+                     String linea = scanner.nextLine();
+                     verticesMaximos = Integer.parseInt(linea);
+-                    contadorInterno++;
+-                } else if (contadorInterno == 1) {
++                    contadorDeLinea++;
++                } else if (contadorDeLinea == 1) {
+                     String linea = scanner.nextLine();
+                     String [] lineaSeparada = linea.split(",");
+                     for (String s : lineaSeparada) {
+                         Vertice<String> verticeTmp = new Vertice<>(String.valueOf(s));
+                         listaVertices.agregarEnCola(verticeTmp);
+                     }
+-                    contadorInterno++;
++                    contadorDeLinea++;
+                 }else{
+                     matrizAdyacencia = new int[verticesMaximos][verticesMaximos];
+                     for (int i = 0; i < matrizAdyacencia.length; i++) {
+@@ -53,6 +51,7 @@
+         }
+     }
+ 
++    //Imprime la matriz de adyacencia de un grafo
+     public void imprimirMatrizAdyacencia(){
+         for (int i = 0; i < matrizAdyacencia.length; i++) { // Iterate through rows
+             for (int j = 0; j < matrizAdyacencia[i].length; j++) { // Iterate through columns in the current row
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b8971150-3d48-4599-8827-d115dc4743a4\" name=\"Changes\" comment=\"Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar.\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/DatosGrafo\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/DatosGrafo\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;WErikAzr&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/JesReyA/ParcialCuatro.git&quot;,\n    &quot;accountId&quot;: &quot;99489934-c42a-47fc-b7c6-cdbf57dc4e42&quot;\n  }\n}</component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHomeTypeForPersistence\" value=\"WRAPPER\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"35amAIX4DAFiAmzNfQe34brULAI\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Application.HelloApplication.executor\": \"Run\",\n    \"Application.Launcher.executor\": \"Run\",\n    \"Application.pruebaGrafos.executor\": \"Debug\",\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"git-widget-placeholder\": \"master\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/home/erikazr/IdeaProjects/ENTREGABLES MIKE/Grafos\",\n    \"project.structure.last.edited\": \"Libraries\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.2\",\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.DirectoryMappings\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/JAR\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares\" />\n      <recent name=\"$PROJECT_DIR$/src/main/java/unam/fes/aragon/grafos\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"unam.fes.aragon.logicaGrafos.clasesAuxiliares\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"pruebaGrafos\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"unam.fes.aragon.logicaGrafos.clasesAuxiliares.pruebaGrafos\" />\n      <module name=\"Grafos\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"unam.fes.aragon.logicaGrafos.clasesAuxiliares.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.pruebaGrafos\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"b8971150-3d48-4599-8827-d115dc4743a4\" name=\"Changes\" comment=\"\" />\n      <created>1760820051128</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1760820051128</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"git innit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1763356681917</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1763356681917</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Configuracion inicial de libreria Herramientas.jar y clases necesarias para el manejo de grafos\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1763357371595</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1763357371595</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1763362529863</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1763362529863</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"git innit\" />\n    <MESSAGE value=\"Configuracion inicial de libreria Herramientas.jar y clases necesarias para el manejo de grafos\" />\n    <MESSAGE value=\"Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar.\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java</url>\n          <line>39</line>\n          <option name=\"timeStamp\" value=\"5\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n    <watches-manager>\n      <configuration name=\"Application\">\n        <watch expression=\"lineaSeparada\" />\n        <watch expression=\"verticesMaximos\" />\n        <watch expression=\"verticeTmp\" />\n      </configuration>\n    </watches-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 032ac86e7b2394a4cc19451207fef9cb06bbe8c7)
++++ b/.idea/workspace.xml	(date 1763436133276)
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar.">
++    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Creación y limpieza de bugs en el método constructor. Crea un grafo a partir del archivo DatosGrafo.">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/DatosGrafo" beforeDir="false" afterPath="$PROJECT_DIR$/DatosGrafo" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" afterDir="false" />
+@@ -55,7 +55,7 @@
+   "keyToString": {
+     "Application.HelloApplication.executor": "Run",
+     "Application.Launcher.executor": "Run",
+-    "Application.pruebaGrafos.executor": "Debug",
++    "Application.pruebaGrafos.executor": "Run",
+     "ModuleVcsDetector.initialDetectionPerformed": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+@@ -132,30 +132,50 @@
+       <option name="project" value="LOCAL" />
+       <updated>1763362529863</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Creación y limpieza de bugs en el método constructor. Crea un grafo a partir del archivo DatosGrafo.">
++      <option name="closed" value="true" />
++      <created>1763415256008</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1763415256008</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Creación y limpieza de bugs en el método constructor. Crea un grafo a partir del archivo DatosGrafo.">
++      <option name="closed" value="true" />
++      <created>1763415285613</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1763415285613</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="git innit" />
+     <MESSAGE value="Configuracion inicial de libreria Herramientas.jar y clases necesarias para el manejo de grafos" />
+     <MESSAGE value="Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Intento de creacion del método constructor de Grafo.java que construya un grafo a partir del archivo DatosGrafo. Me quiero matar." />
++    <MESSAGE value="Creación y limpieza de bugs en el método constructor. Crea un grafo a partir del archivo DatosGrafo." />
++    <option name="LAST_COMMIT_MESSAGE" value="Creación y limpieza de bugs en el método constructor. Crea un grafo a partir del archivo DatosGrafo." />
+   </component>
+   <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java</url>
+-          <line>39</line>
+-          <option name="timeStamp" value="5" />
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
+     <watches-manager>
+       <configuration name="Application">
+         <watch expression="lineaSeparada" />
+         <watch expression="verticesMaximos" />
+         <watch expression="verticeTmp" />
++        <watch expression="valorPeso" />
+       </configuration>
+     </watches-manager>
+   </component>
