@@ -1,7 +1,5 @@
 package unam.fes.aragon.logicaGrafos;
 
-
-
 import unam.fes.aragon.dinamicas.listasimple.ListaSimple;
 import unam.fes.aragon.logicaGrafos.clasesAuxiliares.DistPar;
 import unam.fes.aragon.logicaGrafos.clasesAuxiliares.Vertice;
@@ -93,10 +91,16 @@ public class Grafo <E> {
         listaVertices.obtenerNodo(inicioArbol).estaEnArbol = true;
         nTree = 1;
 
+
         //Trasferir la primera fila de la matriz de adyacencia a sPath
         for (int j = 0; j < nVerts; j++) {
             int tempDist = matrizAdyacencia[inicioArbol][j];
-            recorridos[j] = new DistPar(inicioArbol, tempDist);
+
+            if (tempDist == 0 && j != inicioArbol) {
+                tempDist = valorInfinito;
+            }
+
+            recorridos[j] = new DistPar(tempDist, inicioArbol);
         }
 
         while (nTree < nVerts) {
@@ -113,7 +117,7 @@ public class Grafo <E> {
             nTree++;
             adjustPath();
         }
-
+        imprimirRecorridos(); //Faltaba esta linea (lol)
         nTree = 0;
         for (int j = 0; j < nVerts; j++)
             listaVertices.obtenerNodo(j).estaEnArbol = false;
@@ -141,22 +145,31 @@ public class Grafo <E> {
             }
 
             int currentToFringe = matrizAdyacencia[verticeActual][column];
-            int  startToFringe = distanciaAlVerticeActual + currentToFringe;
-            int sPathDist = recorridos[column].distancia;
+            if (currentToFringe > 0) {
+                int startToFringe = distanciaAlVerticeActual + currentToFringe;
+                int sPathDist = recorridos[column].distancia;
 
-            if (startToFringe < sPathDist){
-                recorridos[column].verticePadre = verticeActual;
-                recorridos[column].distancia = startToFringe;
+                if (startToFringe < sPathDist) {
+                    recorridos[column].verticePadre = verticeActual;
+                    recorridos[column].distancia = startToFringe;
+                }
             }
             column++;
         }
-
     }
 
     public void imprimirRecorridos(){
-        for (DistPar recorrido : recorridos) {
-            System.out.println(recorrido);
+        for(int j=0; j<nVerts; j++){
+            System.out.print(listaVertices.obtenerNodo(j).valor + "=");
+            if(recorridos[j].distancia == valorInfinito){
+                System.out.print("inf");
+            }else {
+                System.out.print(recorridos[j].distancia);
+            }
+            String parent = listaVertices.obtenerNodo(recorridos[j].verticePadre).valor;
+            System.out.print("(" + parent + ") ");
         }
+        System.out.println("");
     }
 }
 

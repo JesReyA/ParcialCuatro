@@ -15,7 +15,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unam.fes.aragon.controller.Controller">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="98.0" layoutX="-13.0" stroke="BLACK" strokeType="INSIDE" width="666.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="98.0" layoutX="-12.0" stroke="BLACK" strokeType="INSIDE" width="666.0">
          <fill>
             <LinearGradient endX="1.0" endY="1.0">
                <stops>
@@ -51,7 +51,6 @@
          </image>
       </ImageView>
       <Button fx:id="obtenerDijkstra" layoutX="461.0" layoutY="56.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="122.0" text="Obtener Ruta" visible="false" />
-      <TextField fx:id="nodoInicio" alignment="CENTER" layoutX="444.0" layoutY="14.0" prefHeight="28.0" prefWidth="60.0" visible="false" />
-      <TextField fx:id="nodoFin" alignment="CENTER" layoutX="540.0" layoutY="14.0" prefHeight="28.0" prefWidth="60.0" visible="false" />
+      <TextField fx:id="nodoInicio" alignment="CENTER" layoutX="492.0" layoutY="14.0" prefHeight="28.0" prefWidth="60.0" visible="false" />
    </children>
 </AnchorPane>

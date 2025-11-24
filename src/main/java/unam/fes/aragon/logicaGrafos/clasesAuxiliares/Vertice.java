@@ -8,6 +8,4 @@ public class Vertice<E> {
         this.valor = valor;
         this.estaEnArbol = false;
     }
-
-
 }
