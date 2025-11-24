@@ -21,6 +21,8 @@ public class Grafo <E> {
     private int verticeActual;
     private int distanciaAlVerticeActual;
 
+
+
     /**
      *
      * Recibe la ruta relativa de un archivo con el formato necesario para crear un grafo
@@ -158,18 +160,19 @@ public class Grafo <E> {
         }
     }
 
-    public void imprimirRecorridos(){
+    public StringBuilder imprimirRecorridos(){
+        StringBuilder recorridosDijkstra= new StringBuilder("");
         for(int j=0; j<nVerts; j++){
-            System.out.print(listaVertices.obtenerNodo(j).valor + "=");
+            recorridosDijkstra.append((listaVertices.obtenerNodo(j).valor + "="));
             if(recorridos[j].distancia == valorInfinito){
-                System.out.print("inf");
+                recorridosDijkstra.append("inf");
             }else {
-                System.out.print(recorridos[j].distancia);
+                recorridosDijkstra.append(recorridos[j].distancia);
             }
             String parent = listaVertices.obtenerNodo(recorridos[j].verticePadre).valor;
-            System.out.print("(" + parent + ") ");
+            recorridosDijkstra.append("(" + parent + ")\n");
         }
-        System.out.println("");
+        return recorridosDijkstra;
     }
 }
 

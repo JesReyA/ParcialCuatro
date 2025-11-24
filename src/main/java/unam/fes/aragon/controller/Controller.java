@@ -27,10 +27,7 @@ import java.io.File;
 public class Controller {
 
     @FXML
-    Button buttonElegirArchivo, obtenerDijkstra;
-
-    @FXML
-    TextField nodoFin, nodoInicio;
+    Button buttonElegirArchivo;
 
     @FXML
     Pane grafoConstruido;
@@ -65,10 +62,9 @@ public class Controller {
                 ListaSimple<Vertice<String>> nombres = grafoNuevo.obtenerNombres();
                 dibujarGrafoVisual(nuevaMatriz, nombres);
 
-                obtenerDijkstra.setVisible(true);
-                nodoFin.setVisible(true);
-                nodoInicio.setVisible(true);
-
+                matrizAdyacenciaDijkstra.appendText("\nDIJKSTRA\n");
+                grafoNuevo.path();
+                matrizAdyacenciaDijkstra.appendText(String.valueOf(grafoNuevo.imprimirRecorridos()));
             }
         }catch (Exception e){
             mostrarAlerta(Alert.AlertType.ERROR, "ERROR", e.getMessage() + "Revise el archivo ingresado y reintente");

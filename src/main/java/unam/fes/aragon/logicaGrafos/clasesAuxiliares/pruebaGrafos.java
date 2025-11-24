@@ -7,5 +7,6 @@ public class pruebaGrafos {
         Grafo<Integer> testGrafo =new Grafo<>("DatosGrafo.txt");
         testGrafo.imprimirMatrizAdyacencia();
         testGrafo.path();
+        System.out.println(testGrafo.imprimirRecorridos());
     }
 }
