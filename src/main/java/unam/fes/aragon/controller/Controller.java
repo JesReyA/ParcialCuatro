@@ -17,6 +17,7 @@ import javafx.scene.text.TextBoundsType;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.scene.Node;
+
 import unam.fes.aragon.dinamicas.listasimple.ListaSimple;
 import unam.fes.aragon.logicaGrafos.Grafo;
 import unam.fes.aragon.logicaGrafos.clasesAuxiliares.Vertice;

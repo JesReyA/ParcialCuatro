@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="Dijkstra TERMINADO YUPIIIIIIII">
+    <list default="true" id="b8971150-3d48-4599-8827-d115dc4743a4" name="Changes" comment="QUEDÓ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatosGrafo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DatosGrafo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/Grafo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/pruebaGrafos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unam/fes/aragon/logicaGrafos/clasesAuxiliares/pruebaGrafos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unam/fes/aragon/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +30,12 @@
     &quot;assignee&quot;: &quot;WErikAzr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/JesReyA/ParcialCuatro.git&quot;,
-    &quot;accountId&quot;: &quot;99489934-c42a-47fc-b7c6-cdbf57dc4e42&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JesReyA/ParcialCuatro.git",
+    "accountId": "9fc962b1-b81c-4d49-840d-8dabeffe26bf"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -55,24 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.Launcher.executor": "Run",
-    "Application.Ventana.executor": "Run",
-    "Application.pruebaGrafos.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/erikazr/IdeaProjects/ENTREGABLES MIKE/Grafos",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ventana.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pruebaGrafos.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/erikazr/IdeaProjects/ENTREGABLES MIKE/Grafos&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JAR" />
@@ -85,7 +81,7 @@
       <recent name="unam.fes.aragon.logicaGrafos.clasesAuxiliares" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Launcher">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unam.fes.aragon.Launcher" />
       <module name="Grafos" />
@@ -114,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pruebaGrafos" />
         <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.pruebaGrafos" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763946309853</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="QUEDÓ">
+      <option name="closed" value="true" />
+      <created>1763947992822</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1763947992822</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +226,8 @@
     <MESSAGE value="Se agregan lugares para elegir nodos Dijkstra" />
     <MESSAGE value="Lugares para elegir nodos de Dijkstra solo son visibles al elegir un archivo" />
     <MESSAGE value="Dijkstra TERMINADO YUPIIIIIIII" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dijkstra TERMINADO YUPIIIIIIII" />
+    <MESSAGE value="QUEDÓ" />
+    <option name="LAST_COMMIT_MESSAGE" value="QUEDÓ" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
