@@ -72,11 +72,11 @@ public class Grafo <E> {
     }
 
     public void imprimirMatrizAdyacencia() {
-        for (int i = 0; i < matrizAdyacencia.length; i++) { // Iterate through rows
-            for (int j = 0; j < matrizAdyacencia[i].length; j++) { // Iterate through columns in the current row
+        for (int i = 0; i < matrizAdyacencia.length; i++) {
+            for (int j = 0; j < matrizAdyacencia[i].length; j++) {
                 System.out.print(matrizAdyacencia[i][j] + " ");
             }
-            System.out.println(); // New line after each row
+            System.out.println();
         }
     }
 
@@ -119,7 +119,7 @@ public class Grafo <E> {
             nTree++;
             adjustPath();
         }
-        imprimirRecorridos(); //Faltaba esta linea (lol)
+        imprimirRecorridos();
         nTree = 0;
         for (int j = 0; j < nVerts; j++)
             listaVertices.obtenerNodo(j).estaEnArbol = false;
