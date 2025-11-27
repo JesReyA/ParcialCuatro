@@ -13,7 +13,7 @@ public class Grafo <E> {
     private ListaSimple<Vertice<String>> listaVertices;
     private int[][] matrizAdyacencia;
 
-    //Atriubutos utilizados en dijkstra
+    //Atributos utilizados en dijkstra
     private int nVerts; //numero actual de vertices en el grafo
     private int nTree;
     private DistPar recorridos[]; //almacena los vertices junto el camino mas corto para llegar a ellos

@@ -40,6 +40,8 @@ public class Controller {
     private FileChooser.ExtensionFilter ex2 = new FileChooser.ExtensionFilter("CSV", "*.csv");
     private File archivoElegido;
 
+    String rutaAnterior;
+
 
     public void handleElegirArchivo(ActionEvent actionEvent) {
         FileChooser fileChooser = new FileChooser();
@@ -51,6 +53,10 @@ public class Controller {
             if(archivoElegido != null){
                 mostrarAlerta(Alert.AlertType.INFORMATION, "EXITO",  "Se adjuntó con éxito el archivo" + "\n" + "El grafo se mostrará a continuación junto con su ruta más corta");
                 Grafo<Integer> grafoNuevo =new Grafo<>(archivoElegido.getAbsolutePath());
+
+                if(rutaAnterior != archivoElegido.getAbsolutePath()){
+                    matrizAdyacenciaDijkstra.setText("");
+                }
 
                 int[][] nuevaMatriz = grafoNuevo.obtenerMatrizAdyacencia();
                 matrizAdyacenciaDijkstra.appendText("\nMATRIZ ADYACENCIA GRAFO\n\n");
@@ -66,6 +72,8 @@ public class Controller {
                 matrizAdyacenciaDijkstra.appendText("\nDIJKSTRA\n");
                 grafoNuevo.path();
                 matrizAdyacenciaDijkstra.appendText(String.valueOf(grafoNuevo.imprimirRecorridos()));
+
+                rutaAnterior = archivoElegido.getAbsolutePath();
             }
         }catch (Exception e){
             mostrarAlerta(Alert.AlertType.ERROR, "ERROR", e.getMessage() + "Revise el archivo ingresado y reintente");
